@@ -39,7 +39,7 @@ cp -R ./dataset-standards-research ~/.codex/skills/dataset-standards-research
 新开对话后，可以输入：
 
 ```text
-使用 数据集标准调研 调研农业高质量数据集相关文件。快速测试：只找 5 个官方文件，不下载 PDF。严格使用固定表头，并在最后写一段 100 字左右总结。
+使用 数据集标准调研 调研【目标领域】高质量数据集相关文件。快速测试：只找 5 个官方文件，不下载 PDF。严格使用固定表头，并在最后写一段 100 字左右总结。
 ```
 
 如果输出中使用了固定表头，并优先给出官方网页链接，说明 skill 已正常触发。可参考 `examples/results/` 中的真实运行结果。
@@ -59,10 +59,10 @@ cp -R ./dataset-standards-research ~/.codex/skills/dataset-standards-research
 正式调研：
 
 ```text
-使用 数据集标准调研 对农业高质量数据集建设相关文件做正式调研。不限制只找 5 个或 10 个文件，先形成完整候选清单，再推荐 5-8 个重点阅读文件。必须覆盖顶层设计与政策框架、高质量数据集专项文件、支撑性通用标准、农业专项文件和官方典型案例。严格使用固定表头，官方链接必须是具体网页；如有官方 PDF 或附件，请下载并生成 download_log.csv；最后生成总体分析总结和 source_notes.md。
+使用 数据集标准调研 对【目标领域】高质量数据集建设相关文件做正式调研。不限制只找 5 个或 10 个文件，先形成完整候选清单，再推荐 5-8 个重点阅读文件。必须覆盖顶层设计与政策框架、高质量数据集专项文件、支撑性通用标准、【目标领域】专项文件和官方典型案例。严格使用固定表头，官方链接必须是具体网页；如有官方 PDF 或附件，请下载并生成 download_log.csv；最后生成总体分析总结和 source_notes.md。
 ```
 
-更完整的正式调研 prompt 见 `examples/agriculture-formal-research.md`。
+更完整的通用正式调研 prompt 见 `examples/domain-formal-research-template.md`。农业只是一个具体领域样例，见 `examples/agriculture-formal-research.md`。
 
 ## 输出表头
 
@@ -130,6 +130,7 @@ dataset-standards-research/
 
 ## 示例与测试
 
+- `examples/domain-formal-research-template.md`：任意领域正式调研模板，使用时替换【目标领域】。
 - `examples/agriculture-quick-test.md`
 - `examples/agriculture-formal-research.md`
 - `examples/medical-quick-test.md`
