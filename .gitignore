@@ -1,0 +1,7 @@
+outputs/
+pdfs/
+*.zip
+*.tmp
+*.log
+download_log.csv
+research_table.xlsx

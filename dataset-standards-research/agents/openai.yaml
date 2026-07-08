@@ -1,0 +1,4 @@
+interface:
+  display_name: "数据集标准调研"
+  short_description: "按行业调研官方高质量数据集政策、标准、指南和案例文件"
+  default_prompt: "使用 $dataset-standards-research 调研指定行业的高质量数据集建设相关顶层设计、政策、标准、指南、案例和可下载附件，并生成固定表头表格与中文总结。"
