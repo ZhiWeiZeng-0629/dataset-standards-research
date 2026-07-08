@@ -21,7 +21,7 @@
 1. 严格使用以下固定表头：
    文档名称｜发布机构和时间｜文档类型｜适用行业或场景｜与高质量数据集构建的关系｜核心内容摘要｜可参考的质量指标｜官方链接
 2. 官方链接必须是具体通知页、详情页、标准详情页或案例页面，不使用门户首页、搜索首页、第三方转载页或直接 PDF 链接替代。
-3. 标准类文件必须优先使用标准主管平台的具体标准页，例如 `openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=...`、`std.samr.gov.cn/gb/search/gbDetailed?id=...`、`hbba.sacinfo.org.cn/stdDetail/...`。标准销售、交易、购买、付费在线阅读等商业服务网站一律排除，不纳入检索范围。
+3. 标准类文件必须优先使用标准主管平台的具体标准页，例如 `openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=...`、`std.samr.gov.cn/gb/search/gbDetailed?id=...`、`std.samr.gov.cn/hb/search/stdHBDetailed?id=...`、`hbba.sacinfo.org.cn/stdDetail/...`。标准销售、交易、购买、付费在线阅读等商业服务网站一律排除，不纳入检索范围。
 4. 每一行都要核验文档名称、标准号或文号、发布机构、发布时间、实施状态和官方来源。
 5. 对“可参考的质量指标”要区分：标准明确指标、文件原文要求、根据文件内容提炼出的参考指标。不得把推导指标写成原文指标。
 6. 如果有官方 PDF 或附件，请下载到输出目录的 pdfs/ 文件夹；如果不能下载或正文受版权限制，请在下载记录中说明原因。
