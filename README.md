@@ -81,7 +81,7 @@ cp -R ./dataset-standards-research ~/.codex/skills/dataset-standards-research
 
 ## 个性化使用
 
-别人安装后可以通过三种方式个性化使用。
+安装后可以通过三种方式个性化使用。
 
 ### 1. 在提问中个性化
 
